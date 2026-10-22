@@ -1,9 +1,11 @@
 package javaMostAskedPrograms;
 
+//18 - Remove duplicate characters from a string.
 public class RemoveDuplicates {
 
 	public static void main(String[] args) {
 		
+		//Create a String, convert it into lower-case
 		String str = "Malayalam";
 		str = str.toLowerCase();
 		String result = "";
@@ -20,7 +22,8 @@ public class RemoveDuplicates {
 				result += ch;
 			}
 		}
-
+		
+		//
 		System.out.println("Before removing duplicates: " + str);
 		System.out.println("After removing duplicates: " + result);
 	}

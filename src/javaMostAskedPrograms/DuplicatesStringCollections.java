@@ -1,5 +1,6 @@
 package javaMostAskedPrograms;
 
+//3 - Find duplicate characters in a string using Map method
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,6 +15,15 @@ public class DuplicatesStringCollections {
 		
 		//Store each character in a HashMap and its frequency
 		Map<Character, Integer> map = new HashMap<>();
+		
+		/*
+		 * 
+		 * str.toCharArray() converts the string into characters.
+			HashMap stores each character and its count.
+			getOrDefault(ch, 0) + 1 increases the count for each occurrence.
+			map.get(ch) > 1 prints only duplicate characters and their counts.
+		 * 
+		 * */
 		
 		for (char ch: str.toCharArray()) {
 			map.put(ch, map.getOrDefault(ch, 0) + 1);

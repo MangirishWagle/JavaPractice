@@ -1,7 +1,7 @@
 package javaMostAskedPrograms;
 import java.util.Scanner;
 
-//Java program to reverse a String without using StringBuilder class
+//1 - Java program to reverse a String without using StringBuilder class
 public class ReverseString {
 
 	public static void main(String[] args) {
